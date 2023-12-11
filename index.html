@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="./assets/app.js"defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/CSS/style.css">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+
+</head>
+<body>
+
+  <!----------SIGN UP FORM START---------->
+  <div id="main" class="container">
+    <div class="hero"></div>
+    <div class="main-info">
+      <h1 class="main-info-header">Stay updated!</h1>
+
+      <p class="primary-text">Join 60,000+ product managers receiving monthly updates on:</p>
+
+      <div class="stats">
+        <div class="stat">
+          <i class="fa-solid fa-check"></i>
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div class="stat">
+          <i class="fa-solid fa-check"></i>
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div class="stat">
+          <i class="fa-solid fa-check"></i>
+          <p>And much more!</p>
+        </div>
+      </div>
+      
+      <form id="form">
+        <div class="form-control">
+          <label id="label" for="email">Email address</label>
+          <p id="error-text1" class="remove-text">Email Adress Is Invalid!</p>
+        </div>
+        <input type="email" name="email" id="input" placeholder="email@company.com">
+        <button>Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+  
+  </div>
+
+
+
+  <!----------SIGN UP FORM END----------->
+
+  <!----------SUCCESS MESSAGE START---------->
+  <div id="success" class="container-two">
+    <div class="thanks">
+      <div class="tick">
+           <i class="tick fa-solid fa-check"></i>
+           
+       </div>
+       <div class="info">
+         <h1>Thanks for subscribing!</h1>
+         <p>A confirmation email has been sent to<span id="email-input"></span> plkease open it and click the button inside to confirm you'r subscription</p>
+         <button id="dismiss-btn"> Dismiss Message</button>
+       </div>
+   </div>
+  </div>
+
+
+
+
+  <!----------SUCCESS MESSAGE END---------->
+  
+
+</body>
+</html>
