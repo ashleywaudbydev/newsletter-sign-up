@@ -125,9 +125,9 @@ I want to build lots more projects with js while taking a react js course.to fur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/00awaudby)
+
 
 
 ## Acknowledgments
