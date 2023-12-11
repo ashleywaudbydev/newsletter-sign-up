@@ -126,7 +126,7 @@ I want to build lots more projects with js while taking a react js course.to fur
 ## Author
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/00awaudby)
+- Frontend Mentor - [@00awaudby](https://www.frontendmentor.io/profile/00awaudby)
 
 
 
