@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/news-letter-sign-up-m36qdWEDez)
-- Live Site URL: [live site](https://00awaudby.github.io/newsletter-sign-up/)
+- Solution URL: (https://www.frontendmentor.io/solutions/news-letter-sign-up-m36qdWEDez)
+- Live Site URL: (https://00awaudby.github.io/newsletter-sign-up/)
 
 ## My process
 
