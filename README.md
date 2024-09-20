@@ -33,7 +33,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/project-snap.png)
+
+![Screenshot_20-9-2024_14024_00awaudby github io](https://github.com/user-attachments/assets/463b050f-1911-4424-82db-1f3cafb38a0b)
 
 
 ### Links
