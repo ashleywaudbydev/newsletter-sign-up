@@ -18,6 +18,11 @@
 body{
     
     font-family: var(--font-robot);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark-Slate-Grey);
 }
 *{
     padding: 0;
@@ -30,15 +35,31 @@ body{
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    
+    
+
+    
 }
 
-.main-inf-header{
-    font-size: 34px;
-}
+.main-info-header{
+     
+    margin-bottom: unset;
+   }
+
+
 .stats{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+   
+}
+
+.container{
+    background-color: white;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 900px;
+    
    
 }
 
@@ -48,9 +69,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 400px;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: 2px solid red;
+    
     
 }
 
@@ -98,7 +121,7 @@ input{
     margin-bottom: 0.5rem;
     color:var(--Charcoal-Grey);
     font-weight: 700;
-    margin-top: 2rem;
+    
 }
 .fa-check{
     color: var(--White);
@@ -173,29 +196,36 @@ p{
     .container{
      display: flex;
      flex-direction: row-reverse;
-     padding: 2rem;
+     padding: 1rem;
      font-size: 22px;
+     height: 600px;
  }
  
     .hero{
      width: 45%;
-     height:90vh;
-     border-top-left-radius: 2rem;
-     border-top-right-radius: 2rem;
+     background-position: 60%;
+     
+     border-top-left-radius: 1rem;
+     border-top-right-radius: 1rem;
      
     }
  
     .main-info{
      width: 55%;
-     gap: 3rem;
+     gap: 2rem;
     }
  
    button, input{
      width: 100%;
    }
  
-    .main-inf-header{
-     font-size:70px;
+    .main-info-header{
+     
+     margin-bottom: -15px;
+    }
+
+    .stats{
+        gap: 1rem;
     }
  }
  
