@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/news-letter-sign-up-m36qdWEDez)
-- Live Site URL: (https://00awaudby.github.io/newsletter-sign-up/)
+- Live Site URL: (https://ashleywaudbydev.github.io/newsletter-sign-up/)
 
 ## My process
 
